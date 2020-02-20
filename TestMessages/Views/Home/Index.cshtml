@@ -1,0 +1,12 @@
+﻿@{
+	ViewBag.Title = "Home Page";
+}
+
+
+<form method="post" action="/Home/CreateMessage">
+	<div class="form-group">
+		<label for="FormControlTextarea1">Your text here</label>
+		<textarea type="text" class="form-control" id="exampleFormControlTextarea1" rows="10" style="resize:none; height:300px; max-width:500px" name="MessageBody"></textarea>
+		<button class="btn btn-danger" type="submit" style="width:500px; margin-top: 15px">SEND</button>
+	</div>
+</form>
